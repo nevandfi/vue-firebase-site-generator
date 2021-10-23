@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@@/*": ["./*"],
+            "@/*": ["./src/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@components/*": ["./src/components/*"],
+            "@blocks/*": ["./src/components/blocks/*"],
+            "@layouts/*": ["./src/components/layouts/*"],
+            "@pages/*": ["./src/components/pages/*"],
+            "@reusables/*": ["./src/components/reusables/*"],
+            "@global/*": ["./src/global/*"],
+            "@modules/*": ["./src/modules/*"],
+            "@router/*": ["./src/router/*"],
+        },
+        "exclude": ["node_modules", ".nuxt", "dist"],
+        "moduleResolution": "node"
+    }
+}
